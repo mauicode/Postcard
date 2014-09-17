@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="TnC-7L-xEA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fQu-Vn-ow7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="1Wy-Ya-Dx2">
@@ -46,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abA-sI-8AW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="777" y="325"/>
+            <point key="canvasLocation" x="752" y="325"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -57,7 +58,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Bfs-Ah-WpS">
@@ -104,6 +105,15 @@
                                     <rect key="frame" x="16" y="72" width="288" height="58"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TI4-lt-4DH">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="131" width="193" height="80"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +123,7 @@
                                 <exclude reference="74X-80-TrA"/>
                                 <exclude reference="WXs-td-31v"/>
                                 <exclude reference="NRH-r9-UVd"/>
+                                <exclude reference="TI4-lt-4DH"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +133,7 @@
                                 <include reference="74X-80-TrA"/>
                                 <include reference="WXs-td-31v"/>
                                 <include reference="NRH-r9-UVd"/>
+                                <include reference="TI4-lt-4DH"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,11 +143,12 @@
                         <outlet property="enterNameTextField" destination="15J-U3-U2D" id="WGd-f7-q6m"/>
                         <outlet property="mailButton" destination="WXs-td-31v" id="48g-o4-gvo"/>
                         <outlet property="messageLabel" destination="NRH-r9-UVd" id="i0m-Ce-2GG"/>
+                        <outlet property="nameLabel" destination="TI4-lt-4DH" id="udB-KH-kny"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1551" y="325"/>
+            <point key="canvasLocation" x="1305" y="325"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zF5-kl-YNy">
@@ -154,7 +167,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V9u-Pn-Rah" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="96" y="341"/>
+            <point key="canvasLocation" x="157.5" y="325"/>
         </scene>
     </scenes>
     <resources>
